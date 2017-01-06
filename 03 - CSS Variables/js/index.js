@@ -3,8 +3,9 @@ const inputs = document.querySelectorAll('input');
 const style_variables = {
   '--padding': '10px',
   '--blur': '0px',
-  '--color': '#871E3B',
-  '--background': '#3A546B'
+  '--color': '#DB737F',
+  '--background-1': '#3A546B',
+  '--background-2': '#041A55'
 }
 
 Object.keys(style_variables).forEach(property => {
