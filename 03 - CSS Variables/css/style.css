@@ -1,0 +1,26 @@
+body {
+  background: var(--background);
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+}
+
+img {
+  box-sizing: border-box;
+  padding: var(--padding);
+  background: var(--color);
+  filter: blur(var(--blur));
+  max-width: 500px;
+  width: 80%;
+  margin: 50px 0;
+}
+
+.row {
+  width: 100%;
+}
+
+input {
+  width: 25%;
+}
