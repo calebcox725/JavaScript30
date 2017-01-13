@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  padding: 5% 2.5%;
+  background: linear-gradient(to bottom, purple, red, orange);
+}
+
+p {
+  font-size: 7em;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #fff;
+  text-shadow: 
+      0 0 5px #fff, 
+      0 0 15px #17f, 
+      0 0 30px #17f;
+  animation: glow 3s alternate infinite ease-in-out;
+}
+
+.preffy:hover {
+  color: #111;
+  text-shadow: 0 0 10px #111;
+}
+
+@keyframes glow {
+  from {
+    color: #cef;
+    text-shadow: 
+      0 0 10px #fff, 
+      0 0 30px #17f, 
+      0 0 60px #17f;
+  }
+  
+  to {
+    color: #fff;
+    text-shadow: 
+      0 0 5px #fff, 
+      0 0 15px #17f, 
+      0 0 30px #17f;
+  }
+}
